@@ -5,7 +5,7 @@ import io
 from openai import OpenAI
 
 # Set your OpenAI API key
-client = OpenAI(api_key="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")  # Replace with your OpenAI API key
+client = OpenAI(api_key="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") # Replace with your OpenAI API key
 
 # Function to convert image to base64
 def encode_image(image):
